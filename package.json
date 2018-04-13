@@ -1,0 +1,34 @@
+{
+  "name": "postcss-px2rem-eliminate",
+  "version": "1.0.0",
+  "description": "对px2rem的略微更改，更适合自己使用",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "pub": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhanglm-person/postcss-px2rem-eliminate.git"
+  },
+  "keywords": [
+    "px2rem",
+    "postcss-plugin"
+  ],
+  "dependencies": {
+    "css": "^2.2.1",
+    "extend": "^3.0.1",
+    "postcss": "^5.0.0",
+    "px2rem": "~0.5.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.1.0",
+    "mocha": "^2.1.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhanglm-person/postcss-px2rem-eliminate/issues"
+  },
+  "homepage": "https://github.com/zhanglm-person/postcss-px2rem-eliminate#readme"
+}
